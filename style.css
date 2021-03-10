@@ -1,0 +1,96 @@
+* {
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+}
+
+.main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./images/pexels-johannes-plenio-1103970.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.banner {
+	display: flex;
+	position: absolute;
+	top: 0;
+	width: auto;
+	height: 30%;
+}
+
+.logo {
+	align-items: flex-start;
+}
+
+.logo img {
+	max-width: 150px;
+}
+
+header {
+	display: flexbox;
+	width: 80%;
+	text-align: center;
+	color: darkslategray;
+	margin-top: 2.5rem;
+	padding-left: 2rem;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.card {
+	background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05)),
+		-1px -1px 2px #aaa, 1px 1px 2px #555;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur (0.8rem);
+	padding: 1.5rem;
+	border-radius: 1rem;
+}
+
+.prompt {
+	color: darkslategray;
+	font-size: 20px;
+	display: flex;
+	padding-bottom: 2rem;
+}
+
+.result {
+	display: flexbox;
+	text-align: center;
+	height: 30vh;
+}
+
+.message {
+	padding-top: 3rem;
+	font-size: 28px;
+	width: 500px;
+}
+
+.clickme {
+	display: flex;
+	justify-content: center;
+}
+
+#getPrompt {
+	background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05)),
+		-1px -1px 2px #aaa, 1px 1px 2px #555;
+	color: darkslategray;
+	justify-self: middle;
+	cursor: pointer;
+	box-shadow: 0 0 5px;
+	border-radius: 1rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+	color: antiquewhite;
+	text-align: center;
+}
